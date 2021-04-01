@@ -1,0 +1,18 @@
+version: '3.2'
+services:
+  db:
+    image: postgres:latest
+    container_name: movie_score_db
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: ${POSTGRES_DB_PASSWORD}
+      POSTGRES_USER: ${POSTGRES_DB_USERNAME}
+      POSTGRES_DB: ${POSTGRES_DB_NAME}
+  pubsub:
+    image: redis:latest
+    container_name: movie_score_pubsub
+    restart: always
+    ports:
+      - 6379:6379

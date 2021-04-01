@@ -1,0 +1,13 @@
+{
+  "name": "movie-score",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "front-install": "sh -c 'cd front; yarn install --ignore-scripts'",
+    "front-relay": "sh -c 'cd front; yarn relay'",
+    "front-build": "sh -c 'cd front; yarn build'",
+    "back-install": "sh -c 'cd back; yarn install --ignore-scripts'",
+    "back-test": "sh -c 'cd back; yarn test'",
+    "back-build": "sh -c 'cd back; yarn build'"
+  }
+}

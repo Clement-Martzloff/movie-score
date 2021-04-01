@@ -1,0 +1,18 @@
+# production
+/build
+/node_modules
+
+# localstack
+.localstack
+
+# sequelize configuration
+.sequelizerc
+
+# environment
+.env
+
+# vscode
+.vscode
+
+# coverage
+/coverage
