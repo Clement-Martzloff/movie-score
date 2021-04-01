@@ -12,24 +12,24 @@ The purpose of this application is to practice code to develop different standar
 - [x] Authenticate an user
 - [x] Search movies from the omdbApi
 - [x] Upvote for a movie
-- [] Downvote for a movie
+- [ ] Downvote for a movie
 - [x] Get the top 3 voted movies
 - [x] Get a user's movie choices
-- [] Get the users who have chosen a movie
+- [ ] Get the users who have chosen a movie
 
 ## Front-end targeted features
 
 - [x] Sign in
 - [x] Sign up
-- [] Log out
+- [ ] Log out
 - [x] Search movies from the omdbApi
 - [x] Display the number of votes per movie
 - [x] Upvote for a movie
-- [] Downvote for a movie
-- [] Show the detail of a movie
-- [] List the top 3 voted movies
-- [] list a user's movie choices
-- [] list the users who have chosen a movie
+- [ ] Downvote for a movie
+- [ ] Show the detail of a movie
+- [ ] List the top 3 voted movies
+- [ ] list a user's movie choices
+- [ ] list the users who have chosen a movie
 
 ## Technical goals
 
@@ -38,7 +38,7 @@ Create an event-driven architecture that uses events to trigger and communicate 
 ## Installation
 
 - Use the package manager [yarn](https://yarnpkg.com/) to install all the dependencies of MovieScore.
-- Use the container solution [Docker](https://www.docker.com/) to connect to your database. Please, find the required images in the [docker-compose.yaml](back/src/docker-compose.yaml).
+- Use the container solution [Docker](https://www.docker.com/) to connect to your database. Please, find the required images in the [docker-compose.yaml](back/docker-compose.yml).
 
 ### back-end
 
