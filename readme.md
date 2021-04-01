@@ -33,7 +33,7 @@ The purpose of this application is to practice code to develop different standar
 
 ## Technical goals
 
-Create an event-driven architecture that uses events to trigger and communicate between decoupled services as in modern applications built with microservices. Use the latest version of the Relay client, in particular to update the UI via server notifications. (In progress)
+Create an event-driven architecture that uses events to trigger and communicate between decoupled services as in modern applications built with microservices. Use the latest version of the Relay client, in particular to update the UI via server notifications ! :fire:
 
 ## Installation
 
